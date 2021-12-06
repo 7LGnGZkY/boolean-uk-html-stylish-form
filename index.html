@@ -8,6 +8,36 @@
     <title>Full Stack Portfolio</title>
   </head>
   <body>
-
+    <div class="box">
+      <form>
+        <h1>Say Hello!</h1>
+        <label class="label-one">
+          <p>Your name</p>
+          <input type="text" placeholder="Enter your name"/><br></label>
+        <label class="label-two">
+            <span class="field"><p>Email</span></br>
+            <input type="text" name="user" placeholder="Enter your email address"/></label><br>
+        <label for="needed">Needed Services</label><br>
+        <select name="needed" id="needed" placeholder="test">
+            <option value=""><h3>Choose Services</h3></option>
+            <option>Web page</option>
+            <option>Web app</option>
+            <option>Backend</option>
+        </select>
+        <br><br>
+        <label for="budget">Budget</label><br>
+        <select name="budget" id="budget">
+            <option><h3>Select Budget</h3></option>
+            <option>Up to £500</option>
+            <option>£1000 - £2000</option>
+            <option>£2000+</option>
+        </select>
+          <br><br>
+          <p>Message</p>
+          <textarea type="text" id="placeholder" placeholder="Your message here..." name="msg" height=1em></textarea>
+          <br><br>
+          <button type="submit" id="submit">Submit</button>
+      </form>    
+    </div>
   </body>
 </html>

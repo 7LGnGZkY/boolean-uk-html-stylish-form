@@ -1,0 +1,60 @@
+* { margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+}
+
+html {
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%); 
+    background: rgb(83,172,225);
+    background: linear-gradient(90deg, rgba(83,172,225,1) 0%, rgba(199,0,242,1) 100%); 
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    font-size: 0.7em;
+    margin: auto;
+}
+
+input[type=text] {
+    width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+    display:block;
+    padding: 12px 5px;
+    
+    
+  }
+
+  .box {
+    margin: auto; 
+
+    width:25%;
+    background:white;
+    border-radius: 1%;
+    
+  }
+
+  #needed, #budget, #placeholder {
+    margin: auto;
+    width:98%;
+    background: transparent;
+  }
+
+  #submit {
+    background: rgb(199,0,242);
+    background: linear-gradient(90deg, rgba(199,0,242,1) 0%, rgba(83,172,225,1) 100%);
+    color: white;
+    width: 80%;
+    height: 3em;
+    border-radius: 20px;
+    padding: 10px;
+  }
+
+  /* Note. Yet to get round to aligning Submit and adding space at the top */
